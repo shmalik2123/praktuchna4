@@ -1,0 +1,369 @@
+name = input("enter you name: ").upper()
+
+
+def a():
+  print("  ***  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+
+
+def b():
+  print(" ****  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" ****  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" ****  ")
+
+
+def c():
+  print("  ***  ")
+  print(" *   * ")
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+  print(" *   * ")
+  print("  ***  ")
+
+
+def d():
+  print(" ****  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" ****  ")
+
+
+def e():
+  print(" * ")
+  print(" *     ")
+  print(" *     ")
+  print(" ***   ")
+  print(" *     ")
+  print(" *     ")
+  print(" * ")
+
+
+def f():
+  print(" * ")
+  print(" *     ")
+  print(" *     ")
+  print(" ***   ")
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+
+
+def g():
+  print("  ***  ")
+  print(" *   * ")
+  print(" *     ")
+  print(" *  ** ")
+  print(" *   * ")
+  print(" *   * ")
+  print("  ***  ")
+
+
+def h():
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+
+
+def i():
+  print(" *** ")
+  print("  *  ")
+  print("  *  ")
+  print("  *  ")
+  print("  *  ")
+  print("  *  ")
+  print(" *** ")
+
+
+def j():
+  print("  ***  ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print(" **    ")
+
+
+def k():
+  print(" *   * ")
+  print(" *  *  ")
+  print(" * *   ")
+  print(" **    ")
+  print(" * *   ")
+  print(" *  *  ")
+  print(" *   * ")
+
+
+def l():
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+  print(" * ")
+
+
+def m():
+  print(" *   * ")
+  print(" *   * ")
+  print("   ")
+  print(" * * * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+
+
+def n():
+  print(" *   * ")
+  print(" *   * ")
+  print(" **  * ")
+  print(" * * * ")
+  print(" *  ** ")
+  print(" *   * ")
+  print(" *   * ")
+
+
+def o():
+  print("  ***  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print("  ***  ")
+
+
+def p():
+  print(" ****  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" ****  ")
+  print(" *     ")
+  print(" *     ")
+  print(" *     ")
+
+
+def q():
+  print("  ***   ")
+  print(" *   *  ")
+  print(" *   *  ")
+  print(" *   *  ")
+  print(" *   *  ")
+  print(" *  *   ")
+  print("  ** *  ")
+
+
+def r():
+  print(" ****  ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" ****  ")
+  print(" * *   ")
+  print(" *  *  ")
+  print(" *   * ")
+
+
+def s():
+  print("  **** ")
+  print(" *     ")
+  print(" *     ")
+  print("  ***  ")
+  print("     * ")
+  print("     * ")
+  print(" ****  ")
+
+
+def t():
+  print(" * ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+
+
+def u():
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print("  ***  ")
+
+
+def v():
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print("  * *  ")
+  print("   *   ")
+
+
+def w():
+  print(" *   * ")
+  print(" *   * ")
+  print(" *   * ")
+  print(" * * * ")
+  print("   ")
+  print(" *   * ")
+  print(" *   * ")
+
+
+def x():
+  print(" *   * ")
+  print(" *   * ")
+  print("  * *  ")
+  print("   *   ")
+  print("  * *  ")
+  print(" *   * ")
+  print(" *   * ")
+
+
+def y():
+  print(" *   * ")
+  print(" *   * ")
+  print("  * *  ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+  print("   *   ")
+
+
+def z():
+  print(" * ")
+  print("     * ")
+  print("    *  ")
+  print("   *   ")
+  print("  *    ")
+  print(" *     ")
+  print(" * ")
+
+
+ii = 0
+
+while ii < len(name):
+
+letter = name[ii]
+  if letter == 'A':
+    a()
+  if letter == 'B':
+    b()
+  if letter == 'D':
+    d()
+  if letter == 'E':
+    e()
+  if letter == 'F':
+    f()
+  if letter == 'G':
+    g()
+  if letter == 'H':
+    h()
+  if letter == 'I':
+    i()
+  if letter == 'J':
+    j()
+  if letter == 'K':
+    k()
+  if letter == 'L':
+    l()
+  if letter == 'M':
+    m()
+  if letter == 'N':
+    n()
+  if letter == 'O':
+    o()
+  if letter == 'Q':
+    q()
+  if letter == 'R':
+    r()
+  if letter == 'S':
+    s()
+  if letter == 'T':
+    t()
+  if letter == 'U':
+    u()
+  if letter == 'V':
+    v()
+  if letter == 'W':
+    w()
+  if letter == 'X':
+    x()
+  if letter == 'Y':
+    y()
+  if letter == 'Z':
+    z()
+  print()
+  ii = ii + 1
+
+print("----------------")
+
+for letter in name:
+  if letter == 'A':
+    a()
+  if letter == 'B':
+    b()
+  if letter == 'D':
+    d()
+  if letter == 'E':
+    e()
+  if letter == 'F':
+    f()
+  if letter == 'G':
+    g()
+  if letter == 'H':
+    h()
+  if letter == 'I':
+    i()
+  if letter == 'J':
+    j()
+  if letter == 'K':
+    k()
+  if letter == 'L':
+    l()
+  if letter == 'M':
+    m()
+  if letter == 'N':
+    n()
+  if letter == 'O':
+    o()
+  if letter == 'Q':
+    q()
+  if letter == 'R':
+    r()
+  if letter == 'S':
+    s()
+  if letter == 'T':
+    t()
+  if letter == 'V':
+    v()
+  if letter == 'W':
+    w()
+  if letter == 'X':
+    x()
+  if letter == 'Y':
+    y()
+  if letter == 'Z':
+    z()
+  print()
